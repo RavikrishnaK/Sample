@@ -1,27 +1,23 @@
 //
-//  ViewController.m
+//  SecondVC.m
 //  Sample
 //
-//  Created by MacBook on 24/05/18.
+//  Created by MacBook on 02/06/18.
 //  Copyright © 2018 MacBook. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SecondVC.h"
 
-@interface ViewController ()
+@interface SecondVC ()
 
 @end
 
-@implementation ViewController
+@implementation SecondVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-
-
-
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

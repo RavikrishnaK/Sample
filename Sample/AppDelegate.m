@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "FirstViewController.h"
+#import "ViewController.h"
+#import "SecondVC.h"
+@interface AppDelegate () {
+    
+    UITabBarController *tabBarController;
+}
 
 @end
 
@@ -17,6 +22,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    FirstViewController *fVc =[[FirstViewController alloc] init];
+//    fVc.tabBarItem =[[UITabBarItem alloc] initWithTitle:@"First" image:nil tag:0];
+//
+//    SecondVC *sVc =[[SecondVC alloc] init];
+//    sVc.tabBarItem =[[UITabBarItem alloc] initWithTitle:@"Second" image:nil tag:0];
+//    NSArray *viewControllers = @[fVc,sVc];
+//    tabBarController.viewControllers = viewControllers;
+//    
+//    [_window addSubview:tabBarController.view];
+    
     return YES;
 }
 
