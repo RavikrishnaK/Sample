@@ -21,6 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"Hi");
+
     // Do any additional setup after loading the view.
     
 //    ViewController *rescueTab = [self.storyboard instantiateViewControllerWithIdentifier:@"FurrekaRescue"];
