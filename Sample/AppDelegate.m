@@ -33,6 +33,8 @@
 //    
 //    [_window addSubview:tabBarController.view];
     
+    NSLog(@"This is new edit");
+    
     return YES;
 }
 
